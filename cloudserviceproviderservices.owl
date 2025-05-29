@@ -1,0 +1,463 @@
+@prefix : <http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices/> .
+
+<http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#cost
+:cost rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#speed
+:speed rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#time
+:time rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AWSBackup
+:AWSBackup rdf:type owl:Class ;
+           rdfs:subClassOf :AmazonWebServices ,
+                           :Service ,
+                           :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AWSDataSync
+:AWSDataSync rdf:type owl:Class ;
+             rdfs:subClassOf :AmazonWebServices ,
+                             :Service ,
+                             :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AWSS3
+:AWSS3 rdf:type owl:Class ;
+       rdfs:subClassOf :AmazonWebServices ,
+                       :Service ,
+                       :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AWSSnowFamily
+:AWSSnowFamily rdf:type owl:Class ;
+               rdfs:subClassOf :AmazonWebServices ,
+                               :Service ,
+                               :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AWSStorageGateway
+:AWSStorageGateway rdf:type owl:Class ;
+                   rdfs:subClassOf :AmazonWebServices ,
+                                   :Service ,
+                                   :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AWSTransferFamily
+:AWSTransferFamily rdf:type owl:Class ;
+                   rdfs:subClassOf :AmazonWebServices ,
+                                   :Service ,
+                                   :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AmazonEBS
+:AmazonEBS rdf:type owl:Class ;
+           rdfs:subClassOf :AmazonWebServices ,
+                           :Service ,
+                           :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AmazonEFSStorage
+:AmazonEFSStorage rdf:type owl:Class ;
+                  rdfs:subClassOf :AmazonWebServices ,
+                                  :Service ,
+                                  :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AmazonFSx
+:AmazonFSx rdf:type owl:Class ;
+           rdfs:subClassOf :AmazonWebServices ,
+                           :Service ,
+                           :Storage .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#AmazonWebServices
+:AmazonWebServices rdf:type owl:Class ;
+                   rdfs:subClassOf :CloudServiceProvider .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#ApacheCassandra
+:ApacheCassandra rdf:type owl:Class ;
+                 rdfs:subClassOf :AmazonWebServices ,
+                                 :Databases ,
+                                 :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#ApplicationIntegration
+:ApplicationIntegration rdf:type owl:Class ;
+                        rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Aurora
+:Aurora rdf:type owl:Class ;
+        rdfs:subClassOf :AmazonWebServices ,
+                        :Databases ,
+                        :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#BankingTransaction
+:BankingTransaction rdf:type owl:Class ;
+                    rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Batch
+:Batch rdf:type owl:Class ;
+       rdfs:subClassOf :AmazonWebServices ,
+                       :Computer ,
+                       :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#CRM
+:CRM rdf:type owl:Class ;
+     rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#CachingSession
+:CachingSession rdf:type owl:Class ;
+                rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Catalogs
+:Catalogs rdf:type owl:Class ;
+          rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#CloudServiceProvider
+:CloudServiceProvider rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Computer
+:Computer rdf:type owl:Class ;
+          rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Containers
+:Containers rdf:type owl:Class ;
+            rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#ContentManagement
+:ContentManagement rdf:type owl:Class ;
+                   rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#CostManagement
+:CostManagement rdf:type owl:Class ;
+                rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DBType
+:DBType rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Databases
+:Databases rdf:type owl:Class ;
+           rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DevOps
+:DevOps rdf:type owl:Class ;
+        rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DeveloperTools
+:DeveloperTools rdf:type owl:Class ;
+                rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DocumentDB
+:DocumentDB rdf:type owl:Class ;
+            rdfs:subClassOf :AmazonWebServices ,
+                            :Databases ,
+                            :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DocumentDatabase
+:DocumentDatabase rdf:type owl:Class ;
+                  rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DynamoDB
+:DynamoDB rdf:type owl:Class ;
+          rdfs:subClassOf :AmazonWebServices ,
+                          :Databases ,
+                          :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#EC2
+:EC2 rdf:type owl:Class ;
+     rdfs:subClassOf :AmazonWebServices ,
+                     :Computer ,
+                     :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#EC2Autoscaling
+:EC2Autoscaling rdf:type owl:Class ;
+                rdfs:subClassOf :AmazonWebServices ,
+                                :Computer ,
+                                :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#EC2Spot
+:EC2Spot rdf:type owl:Class ;
+         rdfs:subClassOf :AmazonWebServices ,
+                         :Computer ,
+                         :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#ERP
+:ERP rdf:type owl:Class ;
+     rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#ElasticCache
+:ElasticCache rdf:type owl:Class ;
+              rdfs:subClassOf :AmazonWebServices ,
+                              :Databases ,
+                              :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#FleetManagement
+:FleetManagement rdf:type owl:Class ;
+                 rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#FraudDetection
+:FraudDetection rdf:type owl:Class ;
+                rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#GamingLeaderboards
+:GamingLeaderboards rdf:type owl:Class ;
+                    rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Geospatial
+:Geospatial rdf:type owl:Class ;
+            rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#GraphDatabase
+:GraphDatabase rdf:type owl:Class ;
+               rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#High-trafficWeb
+:High-trafficWeb rdf:type owl:Class ;
+                 rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#HighScaleIndustrialEquipmentMaintenance
+:HighScaleIndustrialEquipmentMaintenance rdf:type owl:Class ;
+                                         rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#In-memoryDatabase
+:In-memoryDatabase rdf:type owl:Class ;
+                   rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#IndustrialTelemetry
+:IndustrialTelemetry rdf:type owl:Class ;
+                     rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#IoT
+:IoT rdf:type owl:Class ;
+     rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Key-valueDatabase
+:Key-valueDatabase rdf:type owl:Class ;
+                   rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#LedgerDatabase
+:LedgerDatabase rdf:type owl:Class ;
+                rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Lightsail
+:Lightsail rdf:type owl:Class ;
+           rdfs:subClassOf :AmazonWebServices ,
+                           :Computer ,
+                           :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Management
+:Management rdf:type owl:Class ;
+            rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Neptune
+:Neptune rdf:type owl:Class ;
+         rdfs:subClassOf :AmazonWebServices ,
+                         :Databases ,
+                         :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#QoS
+:QoS rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#QuantumLedgarDatabase
+:QuantumLedgarDatabase rdf:type owl:Class ;
+                       rdfs:subClassOf :AmazonWebServices ,
+                                       :Databases ,
+                                       :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#RDS
+:RDS rdf:type owl:Class ;
+     rdfs:subClassOf :AmazonWebServices ,
+                     :Databases ,
+                     :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#RecommendationEngines
+:RecommendationEngines rdf:type owl:Class ;
+                       rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Redshift
+:Redshift rdf:type owl:Class ;
+          rdfs:subClassOf :AmazonWebServices ,
+                          :Databases ,
+                          :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Registration
+:Registration rdf:type owl:Class ;
+              rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#RelationalDatabase
+:RelationalDatabase rdf:type owl:Class ;
+                    rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#RouteOptimization
+:RouteOptimization rdf:type owl:Class ;
+                   rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Serverless
+:Serverless rdf:type owl:Class ;
+            rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Service
+:Service rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#SocialNetworking
+:SocialNetworking rdf:type owl:Class ;
+                  rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Storage
+:Storage rdf:type owl:Class ;
+         rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#SupplyChain
+:SupplyChain rdf:type owl:Class ;
+             rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#SystemsOfRecords
+:SystemsOfRecords rdf:type owl:Class ;
+                  rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#TimeSeriesDatabase
+:TimeSeriesDatabase rdf:type owl:Class ;
+                    rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Timestream
+:Timestream rdf:type owl:Class ;
+            rdfs:subClassOf :AmazonWebServices ,
+                            :Databases ,
+                            :Service .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Type
+:Type rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#UseCase
+:UseCase rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#UserProfile
+:UserProfile rdf:type owl:Class ;
+             rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#WideColumnDatabase
+:WideColumnDatabase rdf:type owl:Class ;
+                    rdfs:subClassOf :DBType .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#e-commerce
+:e-commerce rdf:type owl:Class ;
+            rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#traditional
+:traditional rdf:type owl:Class ;
+             rdfs:subClassOf :UseCase .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DataLakes&Analytics
+<http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#DataLakes&Analytics> rdf:type owl:Class ;
+                                                                                                     rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Management&Governance
+<http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Management&Governance> rdf:type owl:Class ;
+                                                                                                       rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Migration&TransferServices
+<http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Migration&TransferServices> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Networking&ContentDelivery
+<http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Networking&ContentDelivery> rdf:type owl:Class ;
+                                                                                                            rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#SDKs&Toolskits
+<http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#SDKs&Toolskits> rdf:type owl:Class ;
+                                                                                                rdfs:subClassOf :Type .
+
+
+###  http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Security,Identity&Compliance
+<http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices#Security,Identity&Compliance> rdf:type owl:Class ;
+                                                                                                              rdfs:subClassOf :Type .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi
