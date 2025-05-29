@@ -844,7 +844,6 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_054e7645_c83d_4332_af34_c96386560926">
         <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
         <awsdatabaseontology:OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9></awsdatabaseontology:OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9>
-        <awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c>
         <awsdatabaseontology:hasRegionName></awsdatabaseontology:hasRegionName>
         <rdfs:label xml:lang="en">Timestream</rdfs:label>
     </owl:NamedIndividual>
