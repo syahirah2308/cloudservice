@@ -1325,7 +1325,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Redshift">
         <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_6766dae1_dd5d_4de4_abf9_11e4ef47659b"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ecbdbaf0_9c8b_475d_b33b_a4a362f89771"/>
         <awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c>
     </owl:NamedIndividual>
     
