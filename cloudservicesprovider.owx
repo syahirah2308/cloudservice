@@ -1,0 +1,743 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2024/8/cloudserviceproviderservices/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AWSBackup"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AWSDataSync"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AWSS3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AWSSnowFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AWSStorageGateway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AWSTransferFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmazonEBS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmazonEFSStorage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmazonFSx"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AmazonWebServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApacheCassandra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ApplicationIntegration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aurora"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BankingTransaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Batch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CRM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CachingSession"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catalogs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloudServiceProvider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Containers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ContentManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CostManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DBType"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Databases"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DevOps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DeveloperTools"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocumentDB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DocumentDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DynamoDB"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EC2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EC2Autoscaling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EC2Spot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ERP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ElasticCache"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FleetManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FraudDetection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GamingLeaderboards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Geospatial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GraphDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#High-trafficWeb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HighScaleIndustrialEquipmentMaintenance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#In-memoryDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndustrialTelemetry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IoT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Key-valueDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LedgerDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lightsail"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Management"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Neptune"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QoS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QuantumLedgarDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RDS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RecommendationEngines"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Redshift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Registration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RelationalDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RouteOptimization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Serverless"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Service"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SocialNetworking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SupplyChain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SystemsOfRecords"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TimeSeriesDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Timestream"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UseCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#UserProfile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WideColumnDatabase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#e-commerce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#traditional"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataLakes&amp;Analytics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Management&amp;Governance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Migration&amp;TransferServices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Networking&amp;ContentDelivery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SDKs&amp;Toolskits"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security,Identity&amp;Compliance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#cost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#speed"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#time"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AWSBackup"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSBackup"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSBackup"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSDataSync"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSDataSync"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSDataSync"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSS3"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSS3"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSS3"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSSnowFamily"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSSnowFamily"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSSnowFamily"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSStorageGateway"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSStorageGateway"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSStorageGateway"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSTransferFamily"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSTransferFamily"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AWSTransferFamily"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonEBS"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonEBS"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonEBS"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonEFSStorage"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonEFSStorage"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonEFSStorage"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonFSx"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonFSx"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonFSx"/>
+        <Class IRI="#Storage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AmazonWebServices"/>
+        <Class IRI="#CloudServiceProvider"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApacheCassandra"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApacheCassandra"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApacheCassandra"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ApplicationIntegration"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aurora"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aurora"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aurora"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BankingTransaction"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batch"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batch"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Batch"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CRM"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CachingSession"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catalogs"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Containers"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ContentManagement"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CostManagement"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Databases"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DevOps"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DeveloperTools"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentDB"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentDB"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentDB"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DocumentDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynamoDB"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynamoDB"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DynamoDB"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2Autoscaling"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2Autoscaling"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2Autoscaling"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2Spot"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2Spot"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EC2Spot"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ERP"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElasticCache"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElasticCache"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ElasticCache"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FleetManagement"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FraudDetection"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GamingLeaderboards"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Geospatial"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GraphDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#High-trafficWeb"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HighScaleIndustrialEquipmentMaintenance"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#In-memoryDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndustrialTelemetry"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IoT"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Key-valueDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LedgerDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lightsail"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lightsail"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lightsail"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Management"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neptune"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neptune"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Neptune"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantumLedgarDatabase"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantumLedgarDatabase"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QuantumLedgarDatabase"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RDS"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RDS"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RDS"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RecommendationEngines"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redshift"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redshift"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Redshift"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Registration"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RelationalDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RouteOptimization"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Serverless"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SocialNetworking"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SupplyChain"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SystemsOfRecords"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TimeSeriesDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timestream"/>
+        <Class IRI="#AmazonWebServices"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timestream"/>
+        <Class IRI="#Databases"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Timestream"/>
+        <Class IRI="#Service"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#UserProfile"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WideColumnDatabase"/>
+        <Class IRI="#DBType"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#e-commerce"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#traditional"/>
+        <Class IRI="#UseCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataLakes&amp;Analytics"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Management&amp;Governance"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Migration&amp;TransferServices"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Networking&amp;ContentDelivery"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SDKs&amp;Toolskits"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Security,Identity&amp;Compliance"/>
+        <Class IRI="#Type"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
