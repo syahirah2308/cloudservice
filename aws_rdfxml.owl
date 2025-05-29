@@ -1,0 +1,1372 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/ssyah/awsdatabaseontology/"
+     xml:base="http://www.semanticweb.org/ssyah/awsdatabaseontology/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:awsdatabaseontology="http://www.semanticweb.org/ssyah/awsdatabaseontology#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_0383c855_890b_4fd5_9bf3_dd514c04b1f9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_0383c855_890b_4fd5_9bf3_dd514c04b1f9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_889347ab_f45c_4dcf_b8e4_5ff07c65045c"/>
+        <rdfs:label xml:lang="en">supportsQoSParameter</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_130a9d49_e336_4f97_a89b_7785213ac3b4 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_130a9d49_e336_4f97_a89b_7785213ac3b4">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">optimizedFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_43dc18c6_c875_470f_8e24_9e18ca877bc6 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_43dc18c6_c875_470f_8e24_9e18ca877bc6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">hasInstanceType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_4f58cb5e_74ab_4015_848e_a2d1f9d4d9bf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_4f58cb5e_74ab_4015_848e_a2d1f9d4d9bf">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44"/>
+        <rdfs:label xml:lang="en">hasRegion</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_6f5cc7ac_a5dc_4b83_a923_0d8e9f850972 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_6f5cc7ac_a5dc_4b83_a923_0d8e9f850972">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">usesNetworkingType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_94c98747_10fa_45d8_87bb_e5eaaf24aa86 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_94c98747_10fa_45d8_87bb_e5eaaf24aa86">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">hasStorageType</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_9c549b80_fb2c_424c_b043_6b948223d414 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_9c549b80_fb2c_424c_b043_6b948223d414">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">hasPricingModel</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_cddd0744_d81b_44a7_9cd6_f9e386908853 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_cddd0744_d81b_44a7_9cd6_f9e386908853">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44"/>
+        <rdfs:label xml:lang="en">hosts</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_ceb8425f_3b64_496c_b8b8_f5ad9fe6596c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_ceb8425f_3b64_496c_b8b8_f5ad9fe6596c">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44"/>
+        <rdfs:label xml:lang="en">deployedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_e283f538_7077_4e0d_8ffb_316e6cfd3b17 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLObjectProperty_e283f538_7077_4e0d_8ffb_316e6cfd3b17">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44"/>
+        <rdfs:label xml:lang="en">compatibleWith</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#hasQoSMetric -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#hasQoSMetric">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#meetsRequirement -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#meetsRequirement">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_47037062_836b_4ae1_9709_420048b2b7ed -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_47037062_836b_4ae1_9709_420048b2b7ed">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">supportsReadReplicas</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">memorySize</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_52b0348d_8940_4107_a733_9b8badcf8a8f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_52b0348d_8940_4107_a733_9b8badcf8a8f">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">supportsMultiAZ</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_852ccf6d_9973_44e8_b3d8_e97bbebd463d -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_852ccf6d_9973_44e8_b3d8_e97bbebd463d">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">maxIOPS</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">cpuCores</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_a7f45bc3_9ccd_42de_99db_898a1a178da1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_a7f45bc3_9ccd_42de_99db_898a1a178da1">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">networkBandwidth</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_b630491b_c0f4_44cf_8e40_7128fd358eec -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_b630491b_c0f4_44cf_8e40_7128fd358eec">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">maxConnections</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_bd87f0b0_51f1_4a37_9bda_8eeb647f7b3f -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_bd87f0b0_51f1_4a37_9bda_8eeb647f7b3f">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">encryptionEnabled</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_cdb14e36_9ad1_42ea_b803_aa856696b8e5 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLDataProperty_cdb14e36_9ad1_42ea_b803_aa856696b8e5">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">maxStorageSize</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#hasInstanceType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#hasInstanceType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#hasRegionName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#hasRegionName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44">
+        <rdfs:label xml:lang="en">Region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_0a56ec17_e2c9_4fec_9025_abbda507d236 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_0a56ec17_e2c9_4fec_9025_abbda507d236">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_85fb1f96_1624_4304_9044_5e02fbd57414"/>
+        <rdfs:label xml:lang="en">AmazonKeyspaces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1d3b57a8_69a4_4213_ae23_1dc192f16334 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1d3b57a8_69a4_4213_ae23_1dc192f16334">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">Graviton-Based</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">Memory Optimized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1de6a788_d292_4cf0_a241_2ad278b1d791 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1de6a788_d292_4cf0_a241_2ad278b1d791">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">GraphDatabases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">Storage Optimized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_2ea3178a_c80f_4b6e_9d11_f4cea3cda14b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_2ea3178a_c80f_4b6e_9d11_f4cea3cda14b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">Finance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">Reliability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_43dff428_6a83_4189_90ae_d3160a25b050 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_43dff428_6a83_4189_90ae_d3160a25b050">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">LedgerDatabases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_5673b096_b34f_42f3_83d5_054808d0acdd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_5673b096_b34f_42f3_83d5_054808d0acdd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">RelationalDatabaseService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_600b7746_6f0e_4a7e_bb68_917b49e37eb1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_600b7746_6f0e_4a7e_bb68_917b49e37eb1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">TimeSeriesDatabases</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_6766dae1_dd5d_4de4_abf9_11e4ef47659b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_6766dae1_dd5d_4de4_abf9_11e4ef47659b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_885b5743_f628_4daf_9e83_93f61421f333"/>
+        <rdfs:label xml:lang="en">AmazonRedshift</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_733e539d_d8c2_49af_95c8_7750895d9fc9 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_733e539d_d8c2_49af_95c8_7750895d9fc9">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">Availability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">Performance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_783b4da0_7c7e_4b26_bff4_aacb72ea8009 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_783b4da0_7c7e_4b26_bff4_aacb72ea8009">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_5673b096_b34f_42f3_83d5_054808d0acdd"/>
+        <rdfs:label xml:lang="en">AmazonAurora</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_7ebf1616_1ca1_46ae_8e28_9cc2d84d2aaf -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_7ebf1616_1ca1_46ae_8e28_9cc2d84d2aaf">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">Specialized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_85fb1f96_1624_4304_9044_5e02fbd57414 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_85fb1f96_1624_4304_9044_5e02fbd57414">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">NoSQLDatabaseService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_885b5743_f628_4daf_9e83_93f61421f333 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_885b5743_f628_4daf_9e83_93f61421f333">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">DataWarehouseService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_889347ab_f45c_4dcf_b8e4_5ff07c65045c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_889347ab_f45c_4dcf_b8e4_5ff07c65045c">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">Security</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_8cbef340_0cfd_4f86_96bc_5c4a9c4ee9df -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_8cbef340_0cfd_4f86_96bc_5c4a9c4ee9df">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_cab615dd_994d_4631_a6a0_5ff16f9645c5"/>
+        <rdfs:label xml:lang="en">AWSIoTDatabase</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">General Purpose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_97a9c8de_d4bb_4229_9265_4761b60e76f7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_97a9c8de_d4bb_4229_9265_4761b60e76f7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c66cb45e_0c0e_4989_8d99_cb15fec6f373"/>
+        <rdfs:label xml:lang="en">MemoryDBForRedis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ac270867_a12f_449e_b8f7_54a4d191f4a8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ac270867_a12f_449e_b8f7_54a4d191f4a8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_600b7746_6f0e_4a7e_bb68_917b49e37eb1"/>
+        <rdfs:label xml:lang="en">AmazonTimestream</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_b03693e0_1c1e_49ae_b0ca_268aff13a2f0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_b03693e0_1c1e_49ae_b0ca_268aff13a2f0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_85fb1f96_1624_4304_9044_5e02fbd57414"/>
+        <rdfs:label xml:lang="en">AmazonDynamoDB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_bc929b5a_be8f_4eea_b164_0087dea29ed2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_bc929b5a_be8f_4eea_b164_0087dea29ed2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1de6a788_d292_4cf0_a241_2ad278b1d791"/>
+        <rdfs:label xml:lang="en">AmazonNeptune</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_be76aefd_80b4_4587_a337_9eba0dbdf0ff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_be76aefd_80b4_4587_a337_9eba0dbdf0ff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c66cb45e_0c0e_4989_8d99_cb15fec6f373"/>
+        <rdfs:label xml:lang="en">AmazonElastiCache</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_03cc634b_f18d_4242_9d54_e527af5a9a44"/>
+        <rdfs:label xml:lang="en">AsiaPacific</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c59fdb13_051a_45b3_a7d5_facef94854e6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c59fdb13_051a_45b3_a7d5_facef94854e6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_5673b096_b34f_42f3_83d5_054808d0acdd"/>
+        <rdfs:label xml:lang="en">AmazonRDS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8">
+        <rdfs:label xml:lang="en">QoSMetric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c66cb45e_0c0e_4989_8d99_cb15fec6f373 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c66cb45e_0c0e_4989_8d99_cb15fec6f373">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">In-MemoryDataStoreService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_cab615dd_994d_4631_a6a0_5ff16f9645c5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_cab615dd_994d_4631_a6a0_5ff16f9645c5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">EdgeDatabaseService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ecbdbaf0_9c8b_475d_b33b_a4a362f89771 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ecbdbaf0_9c8b_475d_b33b_a4a362f89771">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_5673b096_b34f_42f3_83d5_054808d0acdd"/>
+        <rdfs:label xml:lang="en">AmazonRedshift</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382">
+        <rdfs:label xml:lang="en">Instance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4">
+        <rdfs:label xml:lang="en">DatabaseService</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f471c294_3ac3_4e4f_a4ec_f12573f0e493 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f471c294_3ac3_4e4f_a4ec_f12573f0e493">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_43dff428_6a83_4189_90ae_d3160a25b050"/>
+        <rdfs:label xml:lang="en">AmazonQLDB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f370ab05_4353_482c_8a55_d2a8a2c3f382"/>
+        <rdfs:label xml:lang="en">Compute Optimized</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ffc178c0_cae1_45f8_b58d_9b86bdc69505 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ffc178c0_cae1_45f8_b58d_9b86bdc69505">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c5dfab5a_cd2f_4d54_b051_2cae1512c8d8"/>
+        <rdfs:label xml:lang="en">Scalability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AF-South-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AF-South-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-East-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-East-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Northeast-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Northeast-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Northeast-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Northeast-2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Northeast-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Northeast-3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-South-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-South-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Southeast-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Southeast-1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Southeast-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AP-Southeast-2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c3caa93e_8672_4dca_831f_d58c87469bce"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#AmazonRDS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#AmazonRDS">
+        <awsdatabaseontology:OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16.0</awsdatabaseontology:OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9>
+        <awsdatabaseontology:hasRegionName>us-east-1</awsdatabaseontology:hasRegionName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#Aurora-MySQL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Aurora-MySQL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_783b4da0_7c7e_4b26_bff4_aacb72ea8009"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#Aurora-PostgreSQL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Aurora-PostgreSQL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_783b4da0_7c7e_4b26_bff4_aacb72ea8009"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#Canada-Central -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Canada-Central"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#CostPerQuery -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#CostPerQuery">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_2ea3178a_c80f_4b6e_9d11_f4cea3cda14b"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#Durability -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Durability">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#DynamoDB-GlobalTables -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#DynamoDB-GlobalTables">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_b03693e0_1c1e_49ae_b0ca_268aff13a2f0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#DynamoDB-OnDemand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#DynamoDB-OnDemand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_b03693e0_1c1e_49ae_b0ca_268aff13a2f0"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-Central-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-Central-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-North-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-North-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-South-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-South-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-West-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-West-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-West-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-West-2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-West-3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#EU-West-3"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#ElastiCache-Memcached -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#ElastiCache-Memcached">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_be76aefd_80b4_4587_a337_9eba0dbdf0ff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#ElastiCache-Redis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#ElastiCache-Redis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_be76aefd_80b4_4587_a337_9eba0dbdf0ff"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#ErrorRate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#ErrorRate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#HighPerformanceRequirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#HighPerformanceRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#HighSecurityRequirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#HighSecurityRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#IoTDatabase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#IoTDatabase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_8cbef340_0cfd_4f86_96bc_5c4a9c4ee9df"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#Keyspaces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Keyspaces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_0a56ec17_e2c9_4fec_9025_abbda507d236"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#LowCostRequirement -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#LowCostRequirement"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#ME-South-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#ME-South-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#MemoryDBForRedis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#MemoryDBForRedis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_97a9c8de_d4bb_4229_9265_4761b60e76f7"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#Neptune -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Neptune">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_bc929b5a_be8f_4eea_b164_0087dea29ed2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_054e7645_c83d_4332_af34_c96386560926 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_054e7645_c83d_4332_af34_c96386560926">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <awsdatabaseontology:OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9></awsdatabaseontology:OWLDataProperty_51e86c5f_fd5c_4045_85de_d790dbbea4e9>
+        <awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c>
+        <awsdatabaseontology:hasRegionName></awsdatabaseontology:hasRegionName>
+        <rdfs:label xml:lang="en">Timestream</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_08fb414d_cf8b_4276_989a_a1003ad2a032 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_08fb414d_cf8b_4276_989a_a1003ad2a032">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62"/>
+        <rdfs:comment>Time required to restore a database from a backup.</rdfs:comment>
+        <rdfs:label xml:lang="en">RestoreTime</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_0e6b9b8d_e186_40a8_b71a_15b06dd86360 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_0e6b9b8d_e186_40a8_b71a_15b06dd86360">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e"/>
+        <rdfs:comment>Input/output operations per second, crucial for database storage performance.</rdfs:comment>
+        <rdfs:label xml:lang="en">IOPS</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_0f56eb70_4977_41a1_8478_63f6ea9f6150 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_0f56eb70_4977_41a1_8478_63f6ea9f6150">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0"/>
+        <rdfs:label xml:lang="en">db.c5.large</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_0fc3d7d0_3c60_4094_84a1_573e7de053d4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_0fc3d7d0_3c60_4094_84a1_573e7de053d4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836"/>
+        <rdfs:label xml:lang="en">db.r6g.large</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_1c867185_1e09_490b_ade2_71b4edd0095d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_1c867185_1e09_490b_ade2_71b4edd0095d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62"/>
+        <rdfs:comment>Time required for failover to a standby instance (measured in seconds).</rdfs:comment>
+        <rdfs:label xml:lang="en">FailoverTime</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_1d771b5c_574f_45e9_9aea_6e4daeeb4552 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_1d771b5c_574f_45e9_9aea_6e4daeeb4552">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111"/>
+        <rdfs:label xml:lang="en">db.t3.micro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_2251d208_19d0_4942_9325_ebc4b51b17b2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_2251d208_19d0_4942_9325_ebc4b51b17b2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836"/>
+        <rdfs:label xml:lang="en">db.r6g.2xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_340d4033_f50f_4d8e_9a0f_5f010e14aae8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_340d4033_f50f_4d8e_9a0f_5f010e14aae8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e"/>
+        <rdfs:comment>Number of requests per second (RPS) or queries per second (QPS).</rdfs:comment>
+        <rdfs:label xml:lang="en">Throughput</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_3817dfac_d483_4906_9e9e_6b8f3af6e7d9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_3817dfac_d483_4906_9e9e_6b8f3af6e7d9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_889347ab_f45c_4dcf_b8e4_5ff07c65045c"/>
+        <rdfs:comment>List of compliance standards met (e.g., SOC 2, PCI DSS, HIPAA).</rdfs:comment>
+        <rdfs:label xml:lang="en">ComplianceCertifications</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_3c197965_2e97_4324_8319_2c907ed13871 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_3c197965_2e97_4324_8319_2c907ed13871">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_2ea3178a_c80f_4b6e_9d11_f4cea3cda14b"/>
+        <rdfs:comment>Billing method (e.g., On-Demand, Reserved, Pay-as-you-go).</rdfs:comment>
+        <rdfs:label xml:lang="en">PricingModel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_4023f5c8_1610_46e1_9c72_58827902326c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_4023f5c8_1610_46e1_9c72_58827902326c">
+        <rdfs:label xml:lang="en">AWS Region</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_4378a5ae_1263_40fe_ba64_ad55909dbc84 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_4378a5ae_1263_40fe_ba64_ad55909dbc84">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111"/>
+        <rdfs:label xml:lang="en">db.t4g.medium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_47fc2841_b6b8_4b75_8c47_82c2ae1888e0 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_47fc2841_b6b8_4b75_8c47_82c2ae1888e0">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836"/>
+        <rdfs:label xml:lang="en">db.r5.large</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_5056c3ca_24b0_4e08_9f14_550cf0e8eed4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_5056c3ca_24b0_4e08_9f14_550cf0e8eed4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62"/>
+        <rdfs:comment>Interval at which automated backups are taken (e.g., every 24 hours).</rdfs:comment>
+        <rdfs:label xml:lang="en">BackupFrequency</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_5b3314f5_a467_4136_97ed_052e5d7e8ab5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_5b3314f5_a467_4136_97ed_052e5d7e8ab5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836"/>
+        <rdfs:label xml:lang="en">db.r5.xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_5fa78ca4_0e88_4ade_95a6_02d32587a658 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_5fa78ca4_0e88_4ade_95a6_02d32587a658">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1"/>
+        <rdfs:label xml:lang="en">db.i4g.large</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_6c20db8c_c084_49e8_a673_80e9e21c521c -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_6c20db8c_c084_49e8_a673_80e9e21c521c">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111"/>
+        <rdfs:label xml:lang="en">db.t3.medium</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_6df2af4d_6203_4191_8422_143bbbd7977a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_6df2af4d_6203_4191_8422_143bbbd7977a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_733e539d_d8c2_49af_95c8_7750895d9fc9"/>
+        <rdfs:comment>Whether Multi-AZ failover support is enabled (boolean: true/false).</rdfs:comment>
+        <rdfs:label xml:lang="en">MultiAZDeployment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_70c8e352_a219_4853_9697_3a7e02a04198 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_70c8e352_a219_4853_9697_3a7e02a04198">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e"/>
+        <rdfs:comment>Type of storage used (e.g., SSD, GP3, Provisioned IOPS).</rdfs:comment>
+        <rdfs:label xml:lang="en">StorageType</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_80291f7d_8e8e_4fc0_92b2_407c87a9c66a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_80291f7d_8e8e_4fc0_92b2_407c87a9c66a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e"/>
+        <rdfs:comment>Maximum network throughput (e.g., up to 25 Gbps).</rdfs:comment>
+        <rdfs:label xml:lang="en">NetworkBandwidth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_83730dee_7324_484e_8fe8_01ec69e0c5b6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_83730dee_7324_484e_8fe8_01ec69e0c5b6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1"/>
+        <rdfs:label xml:lang="en">db.i3.2xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_87ea1680_0edb_4959_8245_d56f3548d2c9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_87ea1680_0edb_4959_8245_d56f3548d2c9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1"/>
+        <rdfs:label xml:lang="en">db.i4g.2xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8cb77965_0f63_4cbc_84b7_0d2b4bf835f7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8cb77965_0f63_4cbc_84b7_0d2b4bf835f7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1"/>
+        <rdfs:label xml:lang="en">db.i3.large</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8cce4237_b097_4332_bb1a_27272a9c80a1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8cce4237_b097_4332_bb1a_27272a9c80a1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1"/>
+        <rdfs:label xml:lang="en">db.i3.xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8d09c62b_4feb_4921_a592_522792fc1318 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8d09c62b_4feb_4921_a592_522792fc1318">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_235503e8_88e5_4f07_b990_4156322156e1"/>
+        <rdfs:label xml:lang="en">db.i4g.xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8dabafe4_a0b2_4c95_9f95_dad6da755797 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_8dabafe4_a0b2_4c95_9f95_dad6da755797">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836"/>
+        <rdfs:label xml:lang="en">db.r6g.xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_99de9695_d142_427b_b71c_62856d7dbd18 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_99de9695_d142_427b_b71c_62856d7dbd18">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111"/>
+        <rdfs:label xml:lang="en">db.t4g.small</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_9a2b5169_c79b_4898_837b_a4e6b7fbf7e6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_9a2b5169_c79b_4898_837b_a4e6b7fbf7e6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111"/>
+        <rdfs:label xml:lang="en">db.t3.small</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_9d0cbaaf_fa1d_4671_be43_4a29dd430b5a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_9d0cbaaf_fa1d_4671_be43_4a29dd430b5a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0"/>
+        <rdfs:label xml:lang="en">db.c5.xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_9d14a156_ee3f_4800_a776_9a3f3b3c4d27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_9d14a156_ee3f_4800_a776_9a3f3b3c4d27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ffc178c0_cae1_45f8_b58d_9b86bdc69505"/>
+        <rdfs:comment>Number of read replicas supported by the database.</rdfs:comment>
+        <rdfs:label xml:lang="en">ReadReplicas</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_b3046a4f_9a1f_4ed7_a01f_14349d1dffeb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_b3046a4f_9a1f_4ed7_a01f_14349d1dffeb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_779869a1_7b92_473b_804d_088887c7036e"/>
+        <rdfs:comment>Time taken to process a database request (measured in milliseconds).</rdfs:comment>
+        <rdfs:label xml:lang="en">Latency</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_b85bc17d_def6_483d_bedd_3ac06e3d88ec -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_b85bc17d_def6_483d_bedd_3ac06e3d88ec">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_889347ab_f45c_4dcf_b8e4_5ff07c65045c"/>
+        <rdfs:comment>Whether SSL/TLS encryption is enabled for data in transit (boolean: true/false).</rdfs:comment>
+        <rdfs:label xml:lang="en">EncryptionInTransit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_b9bc8d0c_476c_4dcc_a76a_9b7f7014974a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_b9bc8d0c_476c_4dcc_a76a_9b7f7014974a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ffc178c0_cae1_45f8_b58d_9b86bdc69505"/>
+        <rdfs:comment>Time required to scale up or down database instances.</rdfs:comment>
+        <rdfs:label xml:lang="en">ScalingTime</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_bea254c0_8c4e_4c04_9dfd_20159ce962da -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_bea254c0_8c4e_4c04_9dfd_20159ce962da">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0"/>
+        <rdfs:label xml:lang="en">db.c5.2xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_bec1f34e_b4f0_4e61_a0d3_c7fb109c0031 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_bec1f34e_b4f0_4e61_a0d3_c7fb109c0031">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111"/>
+        <rdfs:label xml:lang="en">db.t4g.micro</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_cd818904_ccbf_4aa4_937b_cc89ec60f8e3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_cd818904_ccbf_4aa4_937b_cc89ec60f8e3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_889347ab_f45c_4dcf_b8e4_5ff07c65045c"/>
+        <rdfs:comment>Whether database encryption is enabled at rest (boolean: true/false).</rdfs:comment>
+        <rdfs:label xml:lang="en">EncryptionAtRest</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_d369d8af_9449_47d1_9fb5_25fff8ab232f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_d369d8af_9449_47d1_9fb5_25fff8ab232f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ffc178c0_cae1_45f8_b58d_9b86bdc69505"/>
+        <rdfs:comment>Maximum storage size (e.g., 128 TB for Amazon RDS).</rdfs:comment>
+        <rdfs:label xml:lang="en">StorageCapacity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_e545c7f0_328b_4085_805f_ac50d592437d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_e545c7f0_328b_4085_805f_ac50d592437d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_95c2f3f4_7f70_4494_9bae_0040cfca3111"/>
+        <rdfs:label xml:lang="en">db.t3.large</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_edcf38f1_50ca_47f6_b892_b7d78f0c24c7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_edcf38f1_50ca_47f6_b892_b7d78f0c24c7">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0"/>
+        <rdfs:label xml:lang="en">db.c6g.large</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_eedacd34_6e53_4576_990a_dc27d0d797aa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_eedacd34_6e53_4576_990a_dc27d0d797aa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0"/>
+        <rdfs:label xml:lang="en">db.c6g.2xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f3215f78_51e8_47bb_8615_978e7a219515 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f3215f78_51e8_47bb_8615_978e7a219515">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62"/>
+        <rdfs:comment>Uptime percentage (e.g., 99.99% SLA for RDS Multi-AZ).</rdfs:comment>
+        <rdfs:label xml:lang="en">Availability</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f349dc9e_69d4_40a1_837b_839857997cd4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f349dc9e_69d4_40a1_837b_839857997cd4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_1db73883_a5bf_4918_b563_1f5e67e01836"/>
+        <rdfs:label xml:lang="en">db.r5.2xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f41503ee_dab0_4841_bd64_17ea070a0ea9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f41503ee_dab0_4841_bd64_17ea070a0ea9">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_fdedff9b_4db5_4d9e_bda4_b278b38483b0"/>
+        <rdfs:label xml:lang="en">db.c6g.xlarge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f61eaad1_8398_4614_8f71_420c180b7421 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_f61eaad1_8398_4614_8f71_420c180b7421">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_42ba31c7_a1d6_43df_97f2_27be945f1e62"/>
+        <rdfs:comment>Delay between primary and replica databases (measured in milliseconds).</rdfs:comment>
+        <rdfs:label xml:lang="en">ReplicationLag</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_ff423674_3c44_465b_8d66_469fbece3aeb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLNamedIndividual_ff423674_3c44_465b_8d66_469fbece3aeb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f376d0a4_0a8c_45cc_9699_6fc7c2c689e4"/>
+        <rdfs:label xml:lang="en">AWSGlueDataCatalog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#QLDB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#QLDB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_f471c294_3ac3_4e4f_a4ec_f12573f0e493"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-MariaDB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-MariaDB">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c59fdb13_051a_45b3_a7d5_facef94854e6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-MySQL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-MySQL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c59fdb13_051a_45b3_a7d5_facef94854e6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-Oracle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-Oracle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c59fdb13_051a_45b3_a7d5_facef94854e6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-PostgreSQL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-PostgreSQL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c59fdb13_051a_45b3_a7d5_facef94854e6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-SQLServer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#RDS-SQLServer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_c59fdb13_051a_45b3_a7d5_facef94854e6"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#Redshift -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#Redshift">
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_6766dae1_dd5d_4de4_abf9_11e4ef47659b"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/ssyah/awsdatabaseontology#OWLClass_ecbdbaf0_9c8b_475d_b33b_a4a362f89771"/>
+        <awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c rdf:datatype="http://www.w3.org/2001/XMLSchema#integer"></awsdatabaseontology:OWLDataProperty_97325dfb_a3da_4225_b2d9_ea289662853c>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#ResponseTime -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#ResponseTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#South-America-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#South-America-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#US-East-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#US-East-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#US-East-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#US-East-2"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#US-West-1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#US-West-1"/>
+    
+
+
+    <!-- http://www.semanticweb.org/ssyah/awsdatabaseontology#US-West-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/ssyah/awsdatabaseontology#US-West-2"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
